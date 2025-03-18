@@ -1,0 +1,257 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    font-family: 'Poopins',sans-serif;
+    background-image: url(/1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat; 
+
+}
+
+.headermaindiv {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.logodiv {
+    margin-left: 30px;
+    margin-top: 20px;
+  
+}
+
+.P-1 {
+    font-size: 40px;
+    font-family: 'Poopins',sans-serif;
+    color: orange;
+
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    gap: 40px;
+    margin-top: 40px;
+
+}
+
+.link1 {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.p1 {
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 1s;
+
+}
+
+.p1:hover {
+    text-decoration: underline;
+    color: orange;
+
+}
+
+.inp1 {
+    margin-left: 50px;
+
+}
+
+.input1 {
+    margin-top: 30px;
+    height: 35px;
+    padding-left: 10px;
+    padding-right: 30px;
+    background-color: transparent;
+    border: 1px orange solid; 
+    border-radius: 10px;
+    color: white;
+
+}
+
+.input1::placeholder {
+    color: white;
+    text-align: left;
+
+}
+
+.b1 {
+    height: 38px;
+    width: 90px;
+    border: none;
+    border-radius: 10px;
+    background-color: orange;
+    color: black;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.b1:hover {
+    color: white;
+    box-shadow: 0px 0px 20px orange;
+
+}
+
+
+.div1 {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.childdiv1 {
+    height: 300px;
+    width: 600px;
+    margin-top: 150px;
+    margin-left: 20px;
+
+}
+
+.p2 {
+    font-size: 50px;
+    color: white;
+
+}
+
+.p3 {
+    color: white;
+    margin-top: 5px;
+
+}
+
+.p4 {
+    color: white;
+    margin-top: 5px;
+
+}
+
+.b2 {
+    background-color: orange;
+    border: none;
+    padding: 8px 40px;
+    font-size: large;
+    border-radius: 10px;
+    margin-top: 20px;
+    transition: 1s;
+    cursor: pointer;
+
+}
+
+.b2:hover {
+    padding: 10px 45px;
+    color: white;
+    box-shadow: 0px 0px 20px orange;
+
+}
+
+.childdiv2 {
+    height: 350px;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.602);
+    border-radius: 10px;
+    margin-top: 110px;
+    margin-left: 200px;
+    transition: 1s;
+    cursor: pointer;
+
+}
+
+.childdiv2:hover {
+    border: 1px solid orange;
+    box-shadow: 0px 0px 30px orange;
+    padding: 10px;
+
+}
+
+.p5 {
+    background-color: orange;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+    padding: 5px 60px;
+    border-radius: 10px;
+    margin-top: 30px;
+
+}
+
+.inp11 {
+    height: 20px;
+    width: 200px;
+    padding-left: 5px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid orange;
+    margin-bottom: 20px;
+    color: white;
+    margin-top: 50px;
+
+}
+
+.inp11::placeholder {
+    color: white;
+    text-align: left;
+
+}
+
+.inp2 {
+    height: 20px;    
+    width: 200px;
+    padding-left: 5px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid orange;
+    margin-bottom: 30px;
+    margin-top: 5px;
+    color: white;
+
+}
+
+.inp2::placeholder {
+    color: white;
+    text-align: left;
+
+}
+
+.b3 {
+    border: none;
+    padding: 7px 90px;
+    background-color: rgba(255, 140, 0, 0.999);
+    border-radius: 7px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: 1s;
+
+}
+
+.b3:hover {
+    color: white;
+    box-shadow: 0px 0px 20px orange;
+
+}
+
+.p6 {
+    color: white;
+    cursor:text;
+
+}
+
+.p7 {
+    color: white;margin-top: 10px;
+    font-size: small;
+    cursor:text;
+
+}

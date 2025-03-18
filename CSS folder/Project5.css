@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {    
+    background-image: url(/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+
+}
+
+.Headerdiv-1 {
+    display: flex;
+    flex-direction: row;
+    backdrop-filter: blur(7px);
+    height: 100px;
+
+}
+
+.P-1 {
+    color: rgb(0, 191, 255);
+    font-family: 'Poopins',sans-serif;
+    font-size: 40px;
+    margin-top: 30px;
+    margin-left: 100px;
+    cursor: pointer;
+    height: 45px;
+    display: inline;
+    transition: 2s;
+    border-radius: 20px;
+
+}
+
+.P-1:hover {
+    box-shadow: 0px 0px 50px rgb(0, 191, 255);
+    border: 1px solid rgb(0, 191, 255);
+
+}
+
+.linkdiv {
+    font-family: 'Poopins',sans-serif;
+    color: white;
+    margin-left: 400px;
+    margin-top: 50px;
+    align-items: center;
+
+}
+
+.link1 {
+    color: rgb(0, 191, 255);
+    transition: 1s;
+    text-decoration: underline;
+
+}
+
+.link1:hover {
+    color: white;
+
+}
+
+.link2 {
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    transition: 1s;
+
+}
+
+.link2:hover {
+    color: rgb(0, 191, 255);
+
+}

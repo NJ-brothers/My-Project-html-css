@@ -1,0 +1,277 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+body {
+    background-color:#081b29;
+
+}
+
+.headerdiv-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.headerdiv-2 {
+    margin-left: 300px;
+    margin-top: 50px;
+   
+}
+
+.P-1 {
+    margin-top: 50px;
+    margin-left: 120px;
+    font-size: xx-large;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+
+}
+
+.SP-1 {
+    color: aqua;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans  Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+
+.div1 {
+    display: flex;
+
+}
+
+.button-1 {
+    margin-top: 50px;
+    margin-left: 30px;
+    padding: 10px 25px;
+    background-color: aqua;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+
+.button-1:hover {
+    box-shadow: 0px 0px 20px aqua;
+
+}
+
+.P-2 {
+    font-weight: bold;
+    color: #081b29;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.link-1 {
+    color: aqua;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 1s;
+    margin-right: 30px;
+   
+}
+
+.link-1:hover {
+    color: white;
+
+}
+
+.link-2 {
+    text-decoration: underline;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aqua;
+    cursor: pointer;
+    margin-right: 30px;
+    transition: 1s;
+
+}
+
+.link-2:hover {
+    color: white;
+
+}
+
+.link-3 {
+    text-decoration: none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    cursor: pointer;
+    margin-right: 30px;
+    transition: 1s;
+   
+}
+
+.link-3:hover {
+    color: aqua;
+
+}
+
+.link-4 {
+    text-decoration: none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    cursor: pointer;
+    margin-right: 30px;
+    transition: 1s;
+
+}
+
+.link-4:hover {
+    color: aqua;
+
+}
+
+.link-5 {
+    text-decoration: none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    cursor: pointer;
+    transition: 1s;
+
+}
+
+.link-5:hover {
+    color: aqua;
+
+}
+
+.bodydiv1 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+    margin-left: 80px;
+    margin-right: 20px;
+
+}
+
+.childdiv1 {
+    height: 150px;
+    width: 550px;
+    padding: 20px;
+    margin-right: 15px;
+    transition: 1s;
+}
+
+.childdiv2 {
+    height: 150px;
+    width: 550px;
+    padding: 20px;
+    transition: 1s;
+    margin-left: 40px;
+    
+}
+
+.bodydiv2 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 75px;
+    margin-top: 10px;
+    margin-right: 20px;
+
+}
+
+.childdiv3 {
+    height: 150px;
+    width: 550px;
+    padding: 20px;
+    margin-right: 50px;
+    transition: 1s;
+
+}
+
+.childdiv4 {
+    height: 150px;
+    width: 550px;
+    padding: 20px;
+    margin-left: 10px;
+    transition: 1s;
+
+}
+
+.P-3 {
+    font-family:poops,sans-serif;
+    font-size: 50px;
+    color: white;
+    display: inline;
+    
+}
+
+.P-4 {
+    font-family:poops,sans-serif;
+    font-size: 40px;
+    color: white;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.P-5 {
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: x-small;
+    width: 350px;
+    margin-top: 10px;
+    border-bottom: 1px white solid;
+    padding-bottom: 5px;
+    margin-left: 12px;
+}
+.img1 {
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 30px;
+    margin-left: 400px;
+    transform: rotate(50deg);
+    transition: 1s;
+    cursor: pointer;
+
+}
+
+.childdiv1:hover {
+    padding: 25px;
+    border: 1px aqua solid;
+    cursor: pointer;
+
+}
+.childdiv2:hover {
+    padding: 25px;
+    border: 1px aqua solid;
+    cursor: pointer;
+
+}
+
+.childdiv3:hover {
+    border: 1px aqua solid;
+    padding: 25px;
+    cursor: pointer;
+
+}
+
+.childdiv4:hover {
+    border: 1px aqua solid;
+    padding: 25px;
+    cursor: pointer;
+
+}
+
+.P-4:hover {
+    color: aqua;
+
+}
+
+.img1:hover {
+    transform: rotate(140deg);
+
+}
+
+.img1:active {
+    background-color: aqua;
+}

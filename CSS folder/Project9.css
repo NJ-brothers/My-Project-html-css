@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.headerdiv1 {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.organicdiv {
+    height: 4em;
+    width: 9em;
+    position: relative;
+    left: 2em;
+    top: 1.9em;
+
+}
+
+.P-1 {
+    font-size: 2.3em;
+    font-weight: bold;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: green;
+
+}
+
+.linkdiv {
+    height: 60px;
+    width: auto;
+    position: relative;
+    left: 8em;
+    top: 1.6em;
+    font-family: Arial, Helvetica, sans-serif;
+    align-content: center;
+
+}
+
+.link1 {
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 50px;
+    color: black;
+    transition: 0.2s;
+
+}
+
+.link1:hover {
+    text-decoration: underline;
+    color: green;
+
+}
+
+.link2 {
+    margin-right: 50px;
+    text-decoration: none;
+    color: black;
+    transition: 0.2s;
+
+}
+
+.link2:hover {
+    text-decoration: underline;
+    color: green;
+
+}
+
+.link3 {
+    margin-right: 50px;
+    text-decoration: none;
+    color: black;
+    transition: 0.2s;
+
+}
+
+.link3:hover {
+    text-decoration: underline;
+    color: green;
+
+}
+
+.link4 {
+    margin-right: 50px;
+    text-decoration: none;
+    color: black;
+    transition: 0.2s;
+
+}
+
+.link4:hover {
+    text-decoration: underline;
+    color: green;
+
+}
+
+.link5 {
+    text-decoration: none;
+    margin-right: 50px;
+    margin-right: 10px;
+    color: black;
+    transition: 0.2s;
+
+}
+
+.link5:hover {
+    text-decoration: underline;
+    color: green;
+
+}
+
+.inpdiv1 {
+    position: relative;
+    left: 17em;
+    top: 2.2em;
+    height: 50px;
+
+}
+
+.input-1 {
+    height: 30px;
+    padding: 0px 10px;
+    margin-top: 10px;
+    border: 2px solid green;
+    color: black;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-right: none;
+
+}
+
+.input-1::placeholder {
+    color: black;   
+
+}
+
+.P-2 {
+    display: inline-block;
+    color: white;
+    background-color: green;
+    border: none;
+    padding: 8px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 0 30px 30px 0;
+    transition: background-color 0.3s;
+
+}
+
+.bodydiv1 {
+   display: inline-block;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   background-image: url(/pexels-adonyi-foto-1414651.jpg);
+   background-repeat: no-repeat;
+   background-size:cover;
+   height: 600px;
+   width: 1404px;
+   margin-top: 30px;
+
+}
+
+.P-3 {
+    display: inline-block;
+    font-size: 3em;
+    font-weight: bolder;
+    color:white;
+    margin-top: 200px;
+    margin-left: 450px;
+    width: 500px;
+
+}
+
+.B-1 {
+    display: block;
+    margin-top: 40px;
+    height: 40px;
+    font-size: larger;
+    background-color: green;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 0px 30px;
+    cursor: pointer;
+    margin-left: 470px;
+    transition: 0.5s;
+
+}
+
+.B-1:hover {
+    background-color: white;
+    border: 1px green solid;
+    color: green;
+    box-shadow: 0px 0px 30px green;
+
+}
+
+.B-1:active {
+    background-color: green;
+    color: white;
+
+}
+
+.bodydiv2 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5em;
+    justify-content: center;
+    gap: 50px;
+
+}
+
+.bodydiv2-1 {}
+
+.img1 {}
+
+.bodydiv2-2 {}
+
+.bodydiv2-3 {}
+
+.bodydiv3 {}
+
+.img2 {}
+
+.P-4 {}

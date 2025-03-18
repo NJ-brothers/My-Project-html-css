@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background: url(/beachpic.jpg) no-repeat;
+    background-attachment: fixed;
+    background-position:center;
+    color: white;
+    background-size: cover;
+
+}
+
+.headermaindiv {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.352);
+
+}
+
+.headerdiv-1 {
+    display: flex;
+    transition: 1s;
+
+}
+
+.headerdiv-1:hover {
+    padding: 5px;
+
+}
+
+.img1 {
+    height: 150px;
+    width: 150px;
+    margin-left: 20px;
+    margin-right: 50px;
+    cursor: pointer;
+
+}
+
+.headerdiv-2 {
+    display: flex;
+    margin-top: 40px;
+    height: 50px;
+
+}
+
+.img2 {
+    height: 30px;
+    width: 30px;
+    position: relative;
+    left: 2em;
+    top: .2em;
+}
+
+.P-1 {
+    font-size: 20px;
+    background-color: #fff;
+    color: black;
+    padding: 10px 40px;
+    height: 25px;
+    cursor: pointer;
+    transition: 1s;
+
+}
+
+.P-1:hover {
+    color: white;
+    padding: 10px 45px;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid white;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+
+}
+
+.P-2 {
+    margin-left: 70px;
+    font-size: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    display: inline-block;
+    transition: 1s;
+
+
+}
+
+.P-2:hover {
+    font-size: 20px;
+    color: rgb(0, 94, 255);
+    background-color: transparent;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+
+}
+
+.headerdiv-3 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-left: 80px;
+    gap: 10px;
+    height: 20px;
+    cursor: pointer;
+    transition: 1s;
+
+}
+
+.headerdiv-3:hover {
+    color: black;
+    border: 1px solid black;
+    padding: 10px;
+
+}
+
+.img3 {
+    height: 20px;
+    width: 20px;
+
+}
+
+.P-8 {
+    font-size: 20px;
+    color: black;
+
+}
+
+/* .P-8:hover {
+    color: rgb(0, 94, 255);
+
+} */
+
+.bodymaindiv {
+    background-color: rgba(0, 0, 0, 0.352);
+    padding-bottom: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+
+}
+
+.bodydiv-1 {
+    display: flex;
+
+}
+
+.P-9 {
+    font-size: 100px;
+    margin-top: 120px;
+    transition: 1s;
+
+}
+
+.P-9:hover {
+    color: rgb(0, 94, 255);
+
+}
+
+.bodydiv-2 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+}
+
+.P-10 {
+    border: 1px solid white;
+    padding: 10px 40px;
+    font-size: larger;
+    transition: 1s;
+    cursor: pointer;
+
+}
+
+.P-10:hover {
+    border: 1px solid rgb(0, 94, 255);
+    padding: 10px 40px;
+    font-size: larger;
+    color: rgb(0, 94, 255);
+
+}

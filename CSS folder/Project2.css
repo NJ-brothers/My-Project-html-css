@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Pooppins',sans-serif;
+    
+}
+
+body {
+    background-color: #081b29;
+    background-image: url('/For images/home1.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: 200px;
+    
+}
+
+.headerdiv-1 {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+
+}
+
+.heading-1 {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 100px;
+    margin-right: 350px;
+    
+}
+
+.P-1 {
+    color: #00abf0;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+
+.P-2 {
+    color: #fff;
+    font-weight: bold;
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+
+.P-3 {
+    color: #fff;
+    font-weight: bold;
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+
+.P-4 {
+    color: #fff;
+    font-weight: bold;
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+
+.P-5 {
+    color: #fff;
+    font-weight: bold;
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+
+.P-1:hover {
+    padding: 2px;
+    color:#fff;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration:underline;
+
+}
+
+.P-2:hover {
+    padding: 2px;
+    color:#00abf0;
+    font-weight: bold;
+    text-decoration:underline;
+    cursor: pointer;
+
+}
+
+.P-3:hover {
+    padding: 2px;
+    color:#00abf0;
+    font-weight: bold;
+    text-decoration:underline;
+    cursor: pointer;
+
+}
+
+.P-4:hover {
+    padding: 2px;
+    color: #00abf0;
+    font-weight: bold;
+    text-decoration:underline;
+    cursor: pointer;
+
+}
+
+.P-5:hover {
+    padding: 2px;
+    color: #00abf0;
+    font-weight: bold;
+    text-decoration:underline;
+    cursor: pointer;
+
+}
+
+
+.textdiv-1 {
+    display: flex;
+    margin-top: 120px;
+    margin-left: 100px;
+}
+
+.P-6 {
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    transition: 2s;
+
+}
+
+.P-6:hover {
+    box-shadow: 0px 0px 30px #00abf0;
+    padding: 5px;
+
+}
+
+.textdiv-2 {
+    margin-top: 15px;
+    margin-left: 100px;
+    margin-bottom: 15px;
+    display: flex;
+
+}
+
+.P-7 {
+    color: #0080ff;
+    font-size: 25px;
+    font-weight: bolder;
+    transition: 2s;
+}
+.P-7:hover {
+    box-shadow: 0px 0px 30px #fff;
+    padding: 5px;
+
+}
+
+.textdiv-3 {
+    margin-left: 100px;
+    display: flex;
+    width: 500px;
+}
+
+.P-8 {
+    color: #fff;
+}
+
+.buttondiv {
+    margin-left: 100px;
+    margin-top: 30px;
+
+}
+
+.button-1{ 
+    background-color:#00abf0;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    margin-right: 50px;
+    transition: 1s;
+    cursor: pointer;
+
+}
+
+.button-1:hover {
+    box-shadow: 0px 0px 15px white;
+    
+}
+
+.P-9 {
+    font-size: larger;
+    color: #081b29;
+    font-weight: 600;
+    transition: 1s;
+
+}
+
+.button-2{ 
+    border: 2px solid #00abf0;
+    padding: 10px 25px;
+    border-radius: 5px;
+    background-color: #081b29;
+    cursor: pointer;
+    transition: 1s;
+
+}
+
+.button-2:hover{
+    box-shadow: 0px 0px 15px white;
+
+}
+
+.P-10 {
+    font-size: larger;
+    color:#00abf0;
+    font-weight: 600;
+
+}
+
+.iconsdiv-1 {
+    display: flex;
+    margin-left: 100px;
+    margin-top: 80px;
+    gap: 20px;
+
+}
+
+.img1 {
+    padding: 2px;
+    border: 2px solid #00abf0;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+
+.img1:hover {
+    box-shadow: 0px 0px 10px white;
+}
+
+.img2 {
+    padding: 2px;
+    border: 2px solid #00abf0;
+    border-radius: 20px;
+    transition: 0.5s;
+    cursor: pointer;
+  
+}
+
+.img2:hover {
+    box-shadow: 0px 0px 10px white;
+}
+
+.img3 {
+    padding: 2px;
+    border: 2px solid #00abf0;
+    transition: 0.5s;
+    border-radius: 20px;
+    cursor: pointer;
+  
+}
+
+.img3:hover {
+    box-shadow: 0px 0px 10px white;
+}

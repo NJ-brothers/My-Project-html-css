@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-image: url(/pexels-eury-escudero-124357529-9962890.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1200px;
+}
+
+.headerdiv-1 {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.imgdiv1 {
+    height: 40px;
+    width: 110px;
+    position: relative;
+    left: 2em;
+    top: 2em;
+
+}
+
+.img1 {
+    height: 31px;
+    width: 120px;
+
+}
+
+.linkdiv {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 2.5em;
+    left: 35em;
+    gap: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.link1 {
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+
+}
+
+.link1:hover {
+    color: rgba(0, 183, 255, 0.954);
+    text-decoration: underline;
+
+}
+
+.link2 {
+    color: white;
+    text-decoration: none;
+
+}
+
+.link2:hover {
+    color: rgba(0, 183, 255, 0.954);
+    text-decoration: underline;
+
+}
+
+.link3 {
+    color: white;
+    text-decoration: none;
+
+}
+
+.link3:hover {
+    color: rgba(0, 183, 255, 0.954);
+    text-decoration: underline;
+
+}
+
+.link4 {
+    color: white;
+    text-decoration: none;
+
+}
+
+.link4:hover {
+    color: rgba(0, 183, 255, 0.954);
+    text-decoration: underline;
+
+}
+
+.link5 {
+    color: white;
+    text-decoration: none;
+
+}
+
+.link5:hover {
+    color: rgba(0, 183, 255, 0.954);
+    text-decoration: underline;
+
+}
+
+.link6 {
+    color: white;
+    text-decoration: none;
+
+}
+
+.link6:hover {
+    color: rgba(0, 183, 255, 0.954);
+    text-decoration: underline;
+
+}
+
+.bodydiv1 {
+    display: inline-block;
+    display: flex;
+    color: white;
+    position: relative;
+    top: 8em;
+    left: 2em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgba(0, 183, 255, 0.954);
+
+}
+
+.P-1 {
+    font-size: 5em;
+    display: inline-block;
+
+}
+
+.P-2 {
+    font-size: 3em;
+    margin-top: 30px;
+    margin-left: 10px;
+    color: white;
+    display: inline-block;
+
+}
+
+.bodydiv2 {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    top: 8em;
+    left: 3em;
+    width: 600px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.B-2 {
+    height: 30px;
+    width: 200px;
+    background-color: rgba(0, 183, 255, 0.954);
+    border: none;
+    margin-top: 20px;font-weight: bold;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.5s;
+
+}
+
+.B-2:hover {
+    background-color: white;
+    color: rgba(0, 183, 255, 0.954);
+    border: 2px solid rgba(0, 183, 255, 0.954);
+    box-shadow: 0px 0px 20px rgba(0, 183, 255, 0.954);
+}
+
+.B-2:active {
+    background-color: rgba(0, 183, 255, 0.954);
+    color: white;
+}
